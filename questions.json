@@ -1,0 +1,27 @@
+[
+  {
+    "question": "What is AI?",
+    "options": ["Artificial Intelligence", "Automated Input", "Analytical Interface", "None"],
+    "answer": "Artificial Intelligence"
+  },
+  {
+    "question": "Which language is popular for AI development?",
+    "options": ["Python", "Java", "HTML", "PHP"],
+    "answer": "Python"
+  },
+  {
+    "question": "What is Machine Learning?",
+    "options": ["Hard-coded logic", "Learning from data", "AI chip", "Cloud computing"],
+    "answer": "Learning from data"
+  },
+  {
+    "question": "What is the goal of AI?",
+    "options": ["To solve puzzles", "To create art", "To make intelligent machines", "To use electricity"],
+    "answer": "To make intelligent machines"
+  },
+  {
+    "question": "Which is not an AI technique?",
+    "options": ["Neural Networks", "Machine Learning", "Linear Regression", "Word Processing"],
+    "answer": "Word Processing"
+  }
+]

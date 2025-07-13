@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div id="formPage">
+      <h1>AI Quiz</h1>
+      <input type="text" id="name" placeholder="Enter your name" />
+      <input type="text" id="roll" placeholder="Enter your roll number" />
+      <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <div id="quizPage" class="hidden">
+      <div id="quizContainer"></div>
+      <button onclick="submitQuiz()">Submit Quiz</button>
+    </div>
+
+    <div id="resultPage" class="hidden">
+      <h2>Your Score: <span id="score"></span>/5</h2>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
